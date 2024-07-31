@@ -6,7 +6,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 
 const TestimonialPage = () => {
   return (
-    <div className="py-20 text-secondary hover:text-gray-900">
+    <div className="my-20 text-secondary hover:text-gray-900">
         <div className="flex items-center">
       <FaArrowLeft className="mx-2"/>
       <Link to ="/" className="">

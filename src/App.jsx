@@ -11,6 +11,7 @@ import AboutPage from "./Pages/AboutPage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import LodgesPage from "./Pages/LodgesPage";
 import TestimonialPage from "./Pages/TestimonialPage";
+import LodgesLearnMore from "./Pages/LodgesLearnMore";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -19,9 +20,9 @@ const App = () => {
       <Route index element={<Homepage/>}/>
       <Route path="/About" element={<AboutPage/>}/>
       <Route path="/Lodges" element={<LodgesPage/>}/>
-      <Route path="*" element={<NotFoundPage/>}/>
       <Route path="/Testimonial" element={<TestimonialPage/>}/>
-
+      <Route path="/Lodges/:id" element={<LodgesLearnMore/>}/>
+      <Route path="*" element={<NotFoundPage/>}/>
     </Route>)
   );
   return (

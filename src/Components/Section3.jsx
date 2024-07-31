@@ -7,8 +7,8 @@ const Section3 = () => {
   return (
     <div ref={ref} className="flex flex-col md:flex-row w-10/12 m-auto my-20">
       <div className="bg-secondary px-20 w-full md:w-1/2 text-primary">
-        <h1 className="line-before2 text-center pt-20 uppercase font-bold">Work Flow</h1>
-        <h2 className="md:text-3xl text-2xl text-center py-4">How It Works</h2>
+        <h1 className="line-before2 md:text-xl text-sm  text-center pt-20 uppercase font-bold">Work Flow</h1>
+        <h2 className="md:text-3xl text-xl text-center py-4">How It Works</h2>
         <div
           className={`container ${
             isIntersecting ? "animate-fadeInBottom" : ""

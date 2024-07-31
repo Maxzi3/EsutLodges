@@ -32,8 +32,8 @@
     width: 10px; /* Adjust width as needed */
     height: 2px; /* Adjust height as needed */
     background-color: #fbe3d1; /* Adjust color as needed */
-    margin-right: 10px; /* Adjust spacing as needed */
-    margin-left: 10px;
+    margin-right: 5px; /* Adjust spacing as needed */
+    margin-left: 5px;
     vertical-align: middle; /* Align with text */
   }
 }

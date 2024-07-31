@@ -7,7 +7,7 @@ const Testimonial = ({isHome}) => {
 
   return (
     <section className="text-primary body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-20 mx-auto">
         <h1 className="text-3xl text-secondary font-medium title-font mb-12 text-center">
           Testimonials
         </h1>
